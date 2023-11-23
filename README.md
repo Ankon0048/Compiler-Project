@@ -21,6 +21,9 @@ Make sure you have the following tools installed on your system:
    ```bash
    git clone https://github.com/your-username/your-repository.git
    cd your-repository
+
+   Then run these following commands on the terminal in the same folder
+   
    bison -d 1907048.y
 
    flex 1907048.l
