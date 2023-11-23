@@ -1,0 +1,147 @@
+#songjukto matha.h 
+
+shonga funcname (())
+{
+	poornank ans;#
+	ans = 5+10;#
+}
+
+shonga againfunc ((poornank as, poornank bs))
+{
+	poornank out;#
+	bs = 10;#
+	as = 100;#
+	out = as+bs;#
+}
+
+shuruaat(())
+{
+	poornank srt, end , var;#
+	doshomik xd;#
+	bakko std;#
+	poornank std;#
+	poornank var;#
+
+	poornank aro = 10;#
+
+	srt = 4;#
+	var = 7;#
+	end = var + 7 ;#
+	end = end * 2;#
+	end = end/2;#
+	end = end vagsesh 5;#
+	end = end ^ 2;#
+	end = end & 2;#
+	end = end | 2;#
+
+
+	poornank chk;#
+	chk = srt brihat end;#
+	chk = srt soman end;#
+	chk = srt khudro_ya_soman end;#
+	chk = srt khudro end;#
+	chk = srt brihat_ya_soman end;#
+	chk = srt soman end;#
+	chk = srt ashoman end;#
+
+	sin((30));#
+
+	cos((30));#
+
+	poornank logresult = log10((1000));#
+	likho((logresult));#
+
+
+	poornank jorbijorresult = jorbijor((srt));#
+	likho((jorbijorresult));#
+
+	poornank factoresult = facto((5));#
+	likho((factoresult));#
+
+	poornank sobarbororesult = sobar_boro((10,5));#
+	likho((sobarbororesult));#
+
+	poornank sobarchotoresult = sobar_choto((10,5));#
+	likho((sobarchotoresult));#
+
+	poornank gosaguresult = gosagu((81,9));#
+	likho((gosaguresult));#
+
+	poornank losaguresult = losagu((81,9));#
+	likho((losaguresult));#
+
+	poornank borgomulresult = borgomul((64));#
+	likho((borgomulresult));#
+
+	poornank moulikresult = moulik((13));#
+	likho((moulikresult));#
+
+	poornank checking = 11;#
+
+	agar(( jorbijor((checking)) ))
+	{
+		likho((checking));#
+		jab_tak_for(( var = 5 , var khudro_ya_soman 7 , var baaro 2 ))
+		{
+			likho((var));#
+		}
+	}	
+	nahi
+	{
+		likho((checking));#
+	}
+
+	checking#++;#
+	likho((checking));#
+
+	checking#-- ;#
+	likho((checking));#
+
+	checking!# ;#
+	likho((checking));#
+	
+	poornank varloop = 0;#
+
+	jab_tak_for(( varloop = 5 , i khudro_ya_soman 7 , i baaro 2 ))
+	{
+		likho((varloop));#
+	}
+
+
+	jab_tak_for(( varloop = 5 , i khudro 7 , i baaro 1 ))
+	{
+		likho((varloop));#
+	}
+
+
+
+	poornank whileloop = 0;#
+	jab_tak(( whileloop khudro 9))
+	{
+		likho((checking));#
+	}
+
+	poornank switchexample;#
+	switchexample = 2;#
+
+	parivartan switchexample
+	{
+		option 1:
+			likho((ex));#
+			vengeFel;#
+		option 2:
+			likho((ex));#
+			vengeFel;#
+		standby:
+			likho((ex));#
+
+	}
+
+	//~single cmnt here
+	/~multiline
+	cmt
+	here~/
+	
+	dekho((switchexample,10));#
+
+}
