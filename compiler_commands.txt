@@ -1,0 +1,3 @@
+bison -d fp.y
+flex fp.l
+gcc fp.tab.c lex.yy.c
