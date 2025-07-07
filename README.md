@@ -1,4 +1,4 @@
-# Project Name
+# Mini Compiler
 
 This project emphasizes on building a compiler using C language and other tools like flex and bison. The project contains customized language with the help of Context Free Grammer.
 
